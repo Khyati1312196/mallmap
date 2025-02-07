@@ -1,0 +1,64 @@
+/*-------- style.css -------*/
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+body
+{
+    background-color: #ffffff;
+
+}
+svg path {
+    fill: rgb(136, 14, 14);
+    stroke-width: .100s;
+}
+svg path:hover
+{
+    fill:rgb(151, 181, 156);
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.mapplic-clickable:hover {
+    fill: rgb(130, 132, 159) !important;
+    transition: 0.6s;
+    cursor: pointer;
+}
+text, rect {
+    pointer-events: none; /* Prevents tooltips from blocking hover */
+}
+.landmarks-i
+{
+    color: blueviolet;
+}
+#routeLine {
+    stroke: red;
+    stroke-width: 2;
+    visibility: hidden;
+}
